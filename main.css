@@ -1,0 +1,150 @@
+/*reset de pagina*/
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;  /*reseta o espaçamento */
+
+}
+
+body{    
+   font-family: "Allerta Stencil", Sans-serif;   /*tudo que estiver no body vai utilizar*/
+   font-family: Roboto, sans-serif;
+   background-color: rgba(71, 68, 68, 0.205);
+    
+}
+header ,section,h2{
+    font-family: "Allerta Stencil", Sans-serif;  /*tudo que estiver no h1,h2 election vai utilizar*/
+   color :rgb(5, 4, 4);
+  
+}
+h1{
+    margin-left: 8px;
+    font-family: "Allerta Stencil", Sans-serif;
+    color:rgb(245, 240, 240);}
+   
+header{
+
+    padding: 16px 0; /*espacamento interno 16px e  0 na laterias * /
+    margin-left: 16px; /*marin a esquerda no header*/
+ 
+    background-color:  rgb(69, 25, 189); /*cor de fundo da header*/
+  
+
+}
+
+
+header nav li{
+    display: inline;   /*fica o menu um do lado do outro*/
+    margin-left: 16px;
+    font-size:18px; /*tamano da fonte*/
+}
+header nav li a{
+  color:rgb(245, 240, 240);
+  text-decoration: none;
+
+
+}
+.container {
+    max-width: 1280;
+    width: 100%;
+    margin: auto; /* o conteudo fica centralizado ele não fica nem , na extrema direita e nem na extrema esquerda*/
+}
+header .container, section .container{ /*adiconando o elemento section.container ele fica o teso na direita e a foto na esquerda*/
+    display: flex;/*fiquem lado a lado*/
+    align-items: center; /* alinha os item na vertical*/
+    justify-content: space-between; /*distribui os elemento aplicados uma margem igualitaria , otitulo fica na esuerda e o menu na extrema direita*/
+}
+#proj{
+    background-color: #ecf0f1;
+    
+
+}
+.lista img {
+    height: 90px; /*o ul é p lsita*/
+    display: inline;
+}
+.lista li {
+    display: inline; /*uma imagem do lado da outrra*/
+    margin-right: 8px;
+}
+.section.container {
+    align-items:center;
+}
+section {
+    color: rgb(69, 25, 189); /*todas a secton fica com esta cor*/
+    padding: 24px 0;
+}
+section h2 {
+    margin-bottom:16px ;
+}
+section p {
+ margin-bottom: 8px;
+}
+section img {
+    margin-right: 32px; /*espaçamento de imagem do portifolio.*/
+    margin-left: 8px;
+}
+ 
+
+
+.perfilFoto{ /*foto do com perfil com logo*/    
+    width: 20%;
+    margin-left: 8px; /*margin para esquerda*/
+    border-radius: 50%;
+    
+}
+form button :hover {
+ background-color: #ecf0f1;
+}
+
+
+form textarea {
+    resize: none;
+    height: 180px;
+    width: 225px;
+    display: block;
+    margin: 8px;
+    margin-left: 8px;
+
+}
+form input   {
+    display:block;
+    margin: 8px;
+    margin-left: 8px;
+  width:225px ;
+  height: 30px;
+
+   }
+   
+   button{
+    background-color: rgb(69, 25, 189);
+    color:#ecf0f1 ;
+    border :none;
+    cursor: pointer;
+    margin-left: 8px;
+    width: 100px;
+
+
+   }
+   
+ 
+   
+   .Contatos,h3{
+       margin-bottom: 8px;
+      cursor: pointer;
+      margin-left: 8px;
+     
+   
+    } 
+    h3, p ,.tituloProg{
+        margin-left: 8px;
+        
+    }
+      
+      
+footer {
+    background-color:  rgb(69, 25, 189);
+    color: #ecf0f1;
+    padding: 16px 0 ;
+}
